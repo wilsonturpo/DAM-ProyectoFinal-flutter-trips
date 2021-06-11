@@ -4,7 +4,7 @@ import 'header_appbar.dart';
 import 'review_list.dart';
 
 class HomeTrips extends StatelessWidget {
-  String descriptionDummy = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+  String descriptionDummy = "Perú no solamente te ofrece uno de los territorios más megadiversos del mundo, sino que, gracias a esta distinción, queda certificado que dicho destino cumple con todos los estándares internacionales de higiene y bioseguridad.";
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

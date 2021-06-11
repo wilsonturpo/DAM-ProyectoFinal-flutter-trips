@@ -81,14 +81,15 @@ flutter:
     - assets/img/kathy.png
     - assets/img/maria.png
     - assets/img/dani.png
-    - assets/img/javier.png
     - assets/img/jilmer.png
+    - assets/img/pet.png
     - assets/img/Arequipa.jpg
     - assets/img/huacachina.jpg
     - assets/img/machu-picchu.jpg
     - assets/img/misti.jpg
     - assets/img/nasca.jpg
     - assets/img/paracas.jpg
+    
   
   fonts:
     - family: Lato

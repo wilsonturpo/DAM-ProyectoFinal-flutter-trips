@@ -13,7 +13,7 @@ class ReviewList extends StatelessWidget {
         Review("assets/img/kathy.png", "Katherine", "1 review 5 photos", "Perú is a beautiful country"),
         Review("assets/img/maria.png", "María Aguilar", "1 review 5 photos", "Perú is a beautiful country"),
         Review("assets/img/dani.png", "Daniel Toledo", "2 review 5 photos", "I love this app, it is fantastic!"),
-        Review("assets/img/javier.png", "Javier Flores", "2 review 5 photos", "I love this app, it is fantastic!"),
+        Review("assets/img/pet.png", "Peter", "2 review 5 photos", "I love this app, it is fantastic!"),
         Review("assets/img/jilmer.png", "Jilmer Branco", "2 review 5 photos", "I love this app, it is fantastic!")
       ],
     );

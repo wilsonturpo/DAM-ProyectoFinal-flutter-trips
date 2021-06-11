@@ -3,16 +3,16 @@ import 'home_trips.dart';
 import 'search_trips.dart';
 import 'profile_trips.dart';
 
-class PlatziTrips extends StatefulWidget {
+class Trips extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
-    return _PlatziTrips();
+    return _Trips();
   }
 
 }
 
-class _PlatziTrips extends State<PlatziTrips> {
+class _Trips extends State<Trips> {
   int indexTap = 0;
   final List<Widget> widgetsChildren = [
     HomeTrips(),

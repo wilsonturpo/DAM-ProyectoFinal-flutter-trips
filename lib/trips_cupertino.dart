@@ -4,7 +4,7 @@ import 'home_trips.dart';
 import 'search_trips.dart';
 import 'profile_trips.dart';
 
-class PlatziTripsCupertino extends StatelessWidget {
+class TripsCupertino extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
