@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  curved_navigation_bar: ^0.3.7 #latest version
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -79,10 +80,15 @@ flutter:
     - assets/img/elsa.jpg
     - assets/img/kathy.png
     - assets/img/maria.png
+    - assets/img/dani.png
+    - assets/img/javier.png
+    - assets/img/jilmer.png
     - assets/img/Arequipa.jpg
     - assets/img/huacachina.jpg
     - assets/img/machu-picchu.jpg
     - assets/img/misti.jpg
+    - assets/img/nasca.jpg
+    - assets/img/paracas.jpg
   
   fonts:
     - family: Lato

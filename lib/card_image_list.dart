@@ -16,9 +16,10 @@ class CardImageList extends StatelessWidget {
           CardImage("assets/img/huacachina.jpg"),
           CardImage("assets/img/machu-picchu.jpg"),
           CardImage("assets/img/misti.jpg"),
+          CardImage("assets/img/nasca.jpg"),
+          CardImage("assets/img/paracas.jpg")
         ],
       ),
     );
   }
-
 }
