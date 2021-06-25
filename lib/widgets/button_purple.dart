@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class ButtonPurple extends StatelessWidget {
 
   String buttonText = "Navigate";
@@ -13,7 +14,7 @@ class ButtonPurple extends StatelessWidget {
       onTap: () {
         Scaffold.of(context).showSnackBar(
             SnackBar(
-              content: Text("Navigating"),
+              content: Text("Navegando"),
             )
         );
       },
@@ -49,6 +50,7 @@ class ButtonPurple extends StatelessWidget {
               fontFamily: "Lato",
               color: Colors.white
             ),
+
           ),
         ),
 

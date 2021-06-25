@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Review extends StatelessWidget{
+class Review extends StatelessWidget {
 
-  String pathImage = "assets/img/wilson.jpg";
-  String name = "Wilson Turpo";
-  String details = "1 review 5 photos";
-  String comment = "There is an amazing place in Perú";
+  String pathImage = "assets/img/people.jpg";
+  String name = "Varuna Yasas";
+  String details = "1 review · 5 photos";
+  String comment = "There is an amazing place in Sri Lanka";
 
   Review(this.pathImage, this.name, this.details, this.comment);
 
@@ -15,46 +15,55 @@ class Review extends StatelessWidget{
 
     final userComment = Container(
       margin: EdgeInsets.only(
-        left: 20.0
+          left: 20.0
       ),
+
       child: Text(
         comment,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontFamily: "Lato",
-          fontSize: 13.0,
-          fontWeight: FontWeight.w900
+            fontFamily: "Lato",
+            fontSize: 13.0,
+            fontWeight: FontWeight.w900
         ),
+
       ),
+
     );
 
     final userInfo = Container(
       margin: EdgeInsets.only(
         left: 20.0
-      ),
+    ),
+
       child: Text(
         details,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontFamily: "Lato",
-          fontSize: 13.0,
+            fontFamily: "Lato",
+            fontSize: 13.0,
           color: Color(0xFFa3a5a7)
         ),
+
       ),
+
     );
 
     final userName = Container(
       margin: EdgeInsets.only(
         left: 20.0
       ),
+
       child: Text(
         name,
         textAlign: TextAlign.left,
         style: TextStyle(
           fontFamily: "Lato",
-          fontSize: 17.0
+            fontSize: 17.0
         ),
+
       ),
+
     );
 
     final userDetails = Column(
@@ -63,13 +72,14 @@ class Review extends StatelessWidget{
         userName,
         userInfo,
         userComment
+
       ],
     );
-    
-    final photo = Container(
+
+    final photo = Container (
       margin: EdgeInsets.only(
-        top:20,
-        left:20
+        top: 20.0,
+        left: 20.0
       ),
 
       width: 80.0,
@@ -78,18 +88,21 @@ class Review extends StatelessWidget{
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         image: DecorationImage(
-          fit: BoxFit.cover,
-          image: AssetImage(pathImage)
+            fit: BoxFit.cover,
+            image: NetworkImage(pathImage)
         )
       ),
+
     );
 
-    return Row(
+    return Row (
       children: <Widget>[
         photo,
         userDetails
+
       ],
     );
+
   }
-  
+
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'description_place.dart';
+import '../widgets/description_place.dart';
 import 'header_appbar.dart';
-import 'review_list.dart';
+import '../widgets/review_list.dart';
 
 class HomeTrips extends StatelessWidget {
   String descriptionDummy = "Perú no solamente te ofrece uno de los territorios más megadiversos del mundo, sino que, gracias a esta distinción, queda certificado que dicho destino cumple con todos los estándares internacionales de higiene y bioseguridad.";
@@ -12,7 +12,7 @@ class HomeTrips extends StatelessWidget {
       children: <Widget>[
         ListView(
           children: <Widget>[
-            DescriptionPlace("Bahamas", 4, descriptionDummy),
+            DescriptionPlace("Perú", 4, descriptionDummy),
             ReviewList()
 
           ],

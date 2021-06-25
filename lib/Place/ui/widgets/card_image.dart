@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'floating_action_button_green.dart';
+import '../../../widgets/floating_action_button_green.dart';
 
 class  CardImage extends StatelessWidget {
 
-  String pathImage = "assets/img/Arequipa.jpg";
+  String pathImage = "assets/img/beach.jpeg";
 
   CardImage(this.pathImage);
 
@@ -46,4 +46,5 @@ class  CardImage extends StatelessWidget {
       ],
     );
   }
+
 }
