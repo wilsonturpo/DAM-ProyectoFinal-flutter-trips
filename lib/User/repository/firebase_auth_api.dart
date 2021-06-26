@@ -14,7 +14,6 @@ class FirebaseAuthAPI {
         GoogleAuthProvider.getCredential(idToken: gSA.idToken, accessToken: gSA.accessToken));
 
     return user;
-
   }
 
   signOut() async {

@@ -16,7 +16,7 @@ class _ReviewList extends State<ReviewList> {
   Future<List<Review>> _listOfReviews;
 
   Future<List<Review>> _getReviews() async {
-    final response = await http.get('http://192.168.1.4:3000/reviews');
+    final response = await http.get('http://54.83.168.240:3000/reviews');
 
     List<Review> reviews = [];
 

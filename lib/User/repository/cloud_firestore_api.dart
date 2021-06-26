@@ -21,5 +21,4 @@ class CloudFirestoreAPI {
 
     }, merge: true);
   }
-
 }

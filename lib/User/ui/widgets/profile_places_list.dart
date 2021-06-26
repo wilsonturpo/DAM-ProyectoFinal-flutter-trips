@@ -38,7 +38,7 @@ class _ProfilePlacesList extends State<ProfilePlacesList> {
   Future<List<Place>> _listOfPlaces;
 
   Future<List<Place>> _getPlaces() async {
-    final response = await http.get('http://192.168.1.4:3000/place');
+    final response = await http.get('http://54.83.168.240:3000/place');
 
     List<Place> places = [];
 
